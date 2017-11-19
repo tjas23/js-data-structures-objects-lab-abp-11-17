@@ -19,7 +19,7 @@ function deleteFromDriverByKey(obj, key, value){
 }
 
 function destructivelyDeleteFromDriverByKey(obj, key, value){
-  delete driver.key;
+  delete driver.'Sam';
   console.log(driver);
   return driver;
 }
