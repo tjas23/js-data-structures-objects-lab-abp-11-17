@@ -13,7 +13,7 @@ function destructivelyUpdateDriverWithKeyAndValue(obj, key, value){
 }
 
 function deleteFromDriverByKey(obj, key, value){
-  const newdriver2 = {...driver};
+  let newdriver2 = {...driver};
   delete newdriver2.key;
   return newdriver2;
 }
